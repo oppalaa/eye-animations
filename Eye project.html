@@ -1,0 +1,101 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eye</title>
+    <style>
+        body
+        {
+            background-color:black;
+        }
+      #nvn
+      {
+        margin-left:418px;
+        margin-top:250px;
+        width:180px;
+        height:180px;
+        border-radius:100% 0px;
+        transform: rotate(45deg);
+        border:2px dotted ghostwhite;
+        animation:nvn 1s 1s  infinite  forwards; 
+      }
+      #tiru
+      {
+        border-radius:50%;
+        height:55px;
+        width: 60px;
+        border:7px double ghostwhite;
+        animation: move 2s infinite forwards;
+        transform: rotate(135deg);
+        margin:50px 50px;
+      }
+        #nvn1
+        {
+        margin-left:877px;
+        margin-top:-181px;
+        width:180px;
+        height:180px;
+        border-radius:100% 0px;
+        transform: rotate(45deg);
+        border:2px dotted ghostwhite;
+        animation:nvn1 1s 1s  infinite  forwards; 
+      }
+      #tiru1
+      {
+        border-radius:50%;
+        height:55px;
+        width: 60px;
+        border:7px double ghostwhite;
+        animation: move1 2s infinite forwards;
+        transform: rotate(135deg);
+        margin:50px 50px;
+      }
+      @keyframes nvn {
+       0%{
+
+        }
+        100%{
+            background:linear-gradient(45deg, lightblue,black,lightpink,lightgreen,red);   
+        }
+    }
+        @keyframes move 
+            {
+            0%
+            {
+                margin:50px 50px;
+            }
+            100%
+            {
+                margin:56px 63px;
+            }
+            }
+            @keyframes nvn1 {
+       0%{
+
+        }
+        100%{
+            background:linear-gradient(45deg, lightblue,black,lightpink,lightgreen,red); 
+        }
+    }
+        @keyframes move1
+            {
+            0%
+            {
+                margin:50px 50px;
+            }
+            100%
+            {
+                margin:56px 63px;
+            }
+            }
+    </style>
+</head>
+<body>
+    <div id="nvn">
+        <div id="tiru"></div>
+    </div>
+    <div id="nvn1">
+        <div id="tiru1"></div>
+    </div>
+
+</body>
+</html>
